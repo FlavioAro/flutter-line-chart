@@ -8,4 +8,4 @@ How to create line chart.
 https://pub.dev/packages/fl_chart
 
 ## Example
-<img src="dist/assets/example.gif?raw=true" width="200px">
+<img src="dist/assets/example.gif?raw=true" width="400px">
