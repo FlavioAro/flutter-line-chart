@@ -1,0 +1,41 @@
+import 'package:flutter/material.dart';
+import 'package:line_chart/src/components/line_chart.dart';
+import 'package:line_chart/src/data/data.dart';
+
+class HomePage extends StatefulWidget {
+  const HomePage({Key? key}) : super(key: key);
+
+  @override
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.grey[300],
+      appBar: AppBar(
+        title: const Text('Home'),
+      ),
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            Container(
+              margin: const EdgeInsets.all(15),
+              decoration: BoxDecoration(
+                border: Border.all(
+                  color: Colors.teal,
+                  style: BorderStyle.solid,
+                  width: 5,
+                ),
+                color: Colors.teal[100],
+                borderRadius: BorderRadius.circular(30.0),
+              ),
+              child: MyLineChart(chartData),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
