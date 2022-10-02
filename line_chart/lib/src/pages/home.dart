@@ -22,11 +22,12 @@ class _HomePageState extends State<HomePage> {
           children: [
             Container(
               margin: const EdgeInsets.all(15),
+              padding: const EdgeInsets.all(15),
               decoration: BoxDecoration(
                 border: Border.all(
                   color: Colors.teal,
                   style: BorderStyle.solid,
-                  width: 5,
+                  width: 2,
                 ),
                 color: Colors.teal[100],
                 borderRadius: BorderRadius.circular(30.0),
