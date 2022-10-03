@@ -32,7 +32,21 @@ class _HomePageState extends State<HomePage> {
                 color: Colors.teal[100],
                 borderRadius: BorderRadius.circular(30.0),
               ),
-              child: MyLineChart(chartData),
+              child: Column(
+                children: [
+                  const Text(
+                    'Line Chart',
+                    style: TextStyle(
+                      fontSize: 30.0,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  const SizedBox(
+                    height: 20,
+                  ),
+                  MyLineChart(chartData),
+                ],
+              ),
             ),
           ],
         ),
