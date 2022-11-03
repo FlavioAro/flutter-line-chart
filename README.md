@@ -1,5 +1,5 @@
 # Line Chart
-How to create line chart.
+How to create line Charts in Flutter using the fl_chart Library.
 
 ### Type this command to install the Lottie package
 > flutter pub add fl_chart
