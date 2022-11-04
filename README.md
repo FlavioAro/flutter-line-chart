@@ -10,7 +10,8 @@ FL Chart is a highly customizable Flutter chart library that supports Line Chart
 #### Package link: 
 https://pub.dev/packages/fl_chart
 
-##### Version used in code:##### 0.55.2
+##### Version used in code:
+0.55.2
 
 ## Example
 <img src="dist/assets/example.gif?raw=true" width="400px">
