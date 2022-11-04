@@ -4,7 +4,7 @@ How to create line Charts in Flutter using the fl_chart Library.
 #### FL Chart
 FL Chart is a highly customizable Flutter chart library that supports Line Chart, Bar Chart, Pie Chart, Scatter Chart, and Radar Chart.
 
-### Type this command to install the Lottie package
+### Type this command to install the FL Chart package
 > flutter pub add fl_chart
 
 #### Package link: 
